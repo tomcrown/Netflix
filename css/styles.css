@@ -5,13 +5,15 @@
   --color-body: lightgrey;
 }
 
+/* Typograpghy */
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: sans-serif, Arial, Helvetica, sans-serif;
-  background: black;
+
   color: var(--color-body);
   font-size: 2rem;
 }
@@ -35,4 +37,41 @@ h3 {
 
 p {
   margin-top: 0;
+}
+
+/* Buttons */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 5rem;
+  padding: 2rem 4rem;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: var(--color-headings);
+}
+
+.btn--primary:hover {
+  background: rgb(243, 54, 54);
+}
+
+.btn--secondary {
+  background: var(--color-secondary);
+  color: var(--color-headings);
+}
+
+.btn--secondary:hover {
+  background: rgb(243, 54, 54);
+}
+
+.btn--small {
+  font-size: 1.8rem;
+  padding: 1rem 1rem;
 }
