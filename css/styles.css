@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: sans-serif, Arial, Helvetica, sans-serif;
-
+  background: black;
   color: var(--color-body);
   font-size: 2rem;
 }
@@ -74,4 +74,13 @@ a {
 .btn--small {
   font-size: 1.8rem;
   padding: 1rem 1rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: 1fr 1fr;
 }
