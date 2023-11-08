@@ -1,0 +1,10 @@
+:root {
+  --color-primary: rgb(229, 9, 20);
+  --color-secondary: red;
+  --color-headings: white;
+  --color-body: lightgrey;
+}
+
+html {
+  font-size: 62.5%;
+}
