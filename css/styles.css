@@ -41,12 +41,12 @@ p {
 
 /* Buttons */
 a {
- color: rgb(186, 185, 185);
- font-size: 1.7rem;
- line-height: 2;
+  color: rgb(186, 185, 185);
+  font-size: 1.7rem;
+  line-height: 2;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -79,7 +79,7 @@ li{
 
 .btn--small {
   font-size: 1.5rem;
-  padding: .7rem 2.5rem;
+  padding: 0.7rem 2.5rem;
   margin: 0.9rem;
 }
 
@@ -96,10 +96,9 @@ li{
 .nav {
   display: flex;
   justify-content: space-between;
-
 }
 
-.nav__logo{
+.nav__logo {
   padding-left: 0;
   height: 30px;
   text-decoration: none;
@@ -112,7 +111,7 @@ li{
 
 /* Input */
 .input {
-  background-color:black ;
+  background-color: black;
   border-radius: 5px;
   border: 1px solid gray;
   color: var(--color-body);
@@ -140,7 +139,6 @@ li{
 
 .header__content {
   text-align: center;
-
 }
 
 .header__heading {
@@ -168,56 +166,53 @@ li{
   bottom: 3rem;
 }
 
-.header .nav{
+.header .nav {
   padding-top: 1.5rem;
 }
 
-
 /* block */
-.section{
+.section {
   border: 5px solid rgb(39, 39, 39);
   border-left: 0;
   border-right: 0;
   padding: 13rem;
 }
 
-.section__heading{
+.section__heading {
   font-size: 6rem;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
-.section__body{
+.section__body {
   font-size: 2.5rem;
   font-weight: bold;
   padding-right: 5rem;
-  
 }
 
-.section__image{
+.section__image {
   padding-left: 4rem;
 }
 
 /* FAQ */
-.faq__body{
+.faq__body {
   border: 1px solid lightgray;
   background-color: rgb(46, 45, 45);
   padding: 2.5rem;
   font-size: 2.8rem;
   margin: 1.3rem;
-  transition: background-color .3s;
-
+  transition: background-color 0.3s;
 }
 
-.faq__heading{
+.faq__heading {
   text-align: center;
   font-size: 6rem;
 }
 
-.faq__body:hover{
-  background-color: rgb(80, 76, 76);;
+.faq__body:hover {
+  background-color: rgb(80, 76, 76);
 }
 
-.faq__action{
+.faq__action {
   font-size: 2.5rem;
   font-weight: 700;
   color: white;
@@ -225,27 +220,25 @@ li{
   padding-top: 2.5rem;
 }
 
-.faq__btn{
+.faq__btn {
   font-weight: 700;
 }
 
-.faq{
+.faq {
   padding-left: 0;
 }
 
-.faq__input{
+.faq__input {
   padding-left: 25rem;
 }
 
-
 /* footer */
-.footer{
+.footer {
   display: flex;
   justify-content: space-evenly;
 }
 
-
-.footer--section{
+.footer--section {
   border: 5px solid rgb(39, 39, 39);
   border-left: 0;
   border-right: 0;
