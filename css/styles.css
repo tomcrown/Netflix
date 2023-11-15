@@ -2,7 +2,7 @@
   --color-primary: rgb(229, 9, 20);
   --color-secondary: red;
   --color-headings: white;
-  --color-body: lightgrey;
+  --color-body: rgb(243, 233, 233);
 }
 
 /* Typograpghy */
@@ -41,16 +41,22 @@ p {
 
 /* Buttons */
 a {
-  text-decoration: none;
+ color: rgb(186, 185, 185);
+ font-size: 1.7rem;
+ line-height: 2;
+}
+
+li{
+  list-style: none;
 }
 
 .btn {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin: 5rem;
-  padding: 1.7rem 4rem;
+  padding: 1.6rem 3rem;
 }
 
 .btn--primary {
@@ -72,8 +78,8 @@ a {
 }
 
 .btn--small {
-  font-size: 1.8rem;
-  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  padding: .7rem 2.5rem;
   margin: 0.9rem;
 }
 
@@ -90,6 +96,13 @@ a {
 .nav {
   display: flex;
   justify-content: space-between;
+
+}
+
+.nav__logo{
+  padding-left: 0;
+  height: 30px;
+  text-decoration: none;
 }
 
 .container {
@@ -99,7 +112,7 @@ a {
 
 /* Input */
 .input {
-  background: black;
+  background-color:black ;
   border-radius: 5px;
   border: 1px solid gray;
   color: var(--color-body);
@@ -107,10 +120,134 @@ a {
   margin: 3rem;
   margin-right: 0.5rem;
   outline: 0;
-  padding: 2.3rem;
-  width: 35rem;
+  padding: 2rem;
+  width: 33rem;
+  background-blend-mode: multiply;
 }
 
 .input__btn {
   margin-left: 0;
+}
+
+/* Header */
+.header {
+  background-blend-mode: multiply;
+  background-color: rgb(94, 87, 87);
+  background-size: cover;
+  background-image: url(../images/background-image.jpg);
+  height: 100vh;
+}
+
+.header__content {
+  text-align: center;
+
+}
+
+.header__heading {
+  font-size: 5rem;
+  padding-top: 19rem;
+  font-weight: 800;
+}
+
+.header__body {
+  font-size: 2.4rem;
+}
+
+.action {
+  padding-top: 1rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.header__btn {
+  padding-left: 25rem;
+}
+
+.input-container {
+  position: relative;
+  bottom: 3rem;
+}
+
+.header .nav{
+  padding-top: 1.5rem;
+}
+
+
+/* block */
+.section{
+  border: 5px solid rgb(39, 39, 39);
+  border-left: 0;
+  border-right: 0;
+  padding: 13rem;
+}
+
+.section__heading{
+  font-size: 6rem;
+  font-weight: bold ;
+}
+
+.section__body{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 5rem;
+  
+}
+
+.section__image{
+  padding-left: 4rem;
+}
+
+/* FAQ */
+.faq__body{
+  border: 1px solid lightgray;
+  background-color: rgb(46, 45, 45);
+  padding: 2.5rem;
+  font-size: 2.8rem;
+  margin: 1.3rem;
+  transition: background-color .3s;
+
+}
+
+.faq__heading{
+  text-align: center;
+  font-size: 6rem;
+}
+
+.faq__body:hover{
+  background-color: rgb(80, 76, 76);;
+}
+
+.faq__action{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.faq__btn{
+  font-weight: 700;
+}
+
+.faq{
+  padding-left: 0;
+}
+
+.faq__input{
+  padding-left: 25rem;
+}
+
+
+/* footer */
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.footer--section{
+  border: 5px solid rgb(39, 39, 39);
+  border-left: 0;
+  border-right: 0;
+  padding: 4rem;
 }
